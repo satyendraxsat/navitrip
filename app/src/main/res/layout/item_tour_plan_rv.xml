@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_tour_plan_item"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:layout_marginBottom="2dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:paddingStart="10dp"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="@color/button_bgcolor"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_des"
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:inputType = "textCapSentences"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+</LinearLayout>

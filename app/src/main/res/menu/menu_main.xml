@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/person"
+        android:title="Converter"
+        android:icon="@drawable/converter"/>
+    <item
+        android:id="@+id/home"
+        android:title="Trip"
+        android:icon="@drawable/trip"/>
+    <item
+        android:id="@+id/chatbox"
+        android:title="Chatbox"
+        android:icon="@drawable/chatbox"/>
+</menu>

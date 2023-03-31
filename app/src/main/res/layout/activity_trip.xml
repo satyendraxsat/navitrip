@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e9e9"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="Activity"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/button_bgcolor"
+            android:layout_height="wrap_content"/>
+
+    </Toolbar>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_trip"
+        android:layout_width="match_parent"
+        android:layout_marginStart="15dp"
+        app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+        android:layout_marginEnd="15dp"
+        android:layout_height="?actionBarSize"/>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager_trip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_edittext"
+        app:menu="@menu/menu_main"/>
+</FrameLayout>
+</LinearLayout></layout>

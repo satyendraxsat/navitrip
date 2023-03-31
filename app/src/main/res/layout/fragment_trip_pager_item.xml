@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="Day 1"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/button_bgcolor"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/layout_detail"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingStart="25dp"
+        android:visibility="gone"
+        android:paddingEnd="25dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text="Introduction"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tv_detail_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:scrollbars="vertical"
+            android:justificationMode="inter_word"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_stay"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/img_hotel"
+        android:layout_marginTop="15dp"
+        android:layout_width="300dp"
+        android:background="@color/colorPrimary"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/tv_hotel_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Description"
+        android:justificationMode="inter_word"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_hotel_description"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="14sp"
+        />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Room type"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_hotel_room"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="14sp"
+        android:justificationMode="inter_word"
+        />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Meal type"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_hotel_meal"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="14sp"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_guide"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/img_guide"
+        android:layout_marginTop="15dp"
+        android:layout_width="300dp"
+        android:background="@color/colorPrimary"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/tv_guide_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="asd a adsda"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:justificationMode="inter_word"
+        android:textColor="@color/black"
+        android:text="Description"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_guide_description"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="asda asda adasd asda d ada asd asd asdasd hd s s fsd sf "
+        android:textSize="14sp"
+        android:justificationMode="inter_word"
+        />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Contact no."
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_guide_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="43565765675"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_travel"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/img_travel"
+        android:layout_marginTop="15dp"
+        android:layout_width="300dp"
+        android:background="@color/colorPrimary"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/tv_travel_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+android:text="asdj asdakjk askd"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:text="Description"
+        android:justificationMode="inter_word"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_travel_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="sd sdfs dfs d fd gd f dg fhk sj dh kfj sdf hdksk dsjf hsdkj ksdj fhkjsd hjskdhfj ksdfkjd"
+        android:layout_marginTop="20dp"
+        android:justificationMode="inter_word"
+        android:textSize="14sp"
+        />
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/lbl_vehicle_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Vehicle No."
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_vehicle_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="haskdhak sajdhak"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="150dp"
+        android:textSize="14sp"
+        />
+
+        <TextView
+            android:id="@+id/lbl_driver_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+            android:layout_below="@+id/lbl_vehicle_no"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:text="Driver Name"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_driver_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginStart="150dp"
+        android:layout_below="@+id/tv_vehicle_no"
+android:text="saksja ajksdhak"
+        android:layout_marginTop="15dp"
+        android:textSize="14sp"
+        />
+        <TextView
+            android:id="@+id/lbl_driver_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+            android:layout_below="@+id/lbl_driver_name"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:text="Driver No."
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_driver_no"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv_driver_name"
+        android:layout_marginTop="15dp"
+        android:text="328648283648"
+        android:textSize="14sp"
+        />
+</RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_no_data"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="No Data Available"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/button_bgcolor"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout></layout>

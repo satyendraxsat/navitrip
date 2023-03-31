@@ -26,7 +26,7 @@ public class splash extends AppCompatActivity {
                 Intent i = new Intent(splash.this, YourJourneyActivity.class);
                 startActivity(i);
                 finish();
-            }, 5000);
+            }, 1000);
         }
         else{
             new Handler().postDelayed(() -> {
